@@ -1,0 +1,27 @@
+{
+  "source": "local-vendor-b",
+  "records": [
+    {
+      "indicator_type": "ip",
+      "value": "203.0.113.10",
+      "disposition": "suspicious",
+      "confidence": 95,
+      "observed_at": "2026-10-05T12:00:00Z",
+      "revoked": false
+    },
+    {
+      "indicator_type": "domain",
+      "value": "phish.example.org",
+      "disposition": "malicious",
+      "confidence": 60,
+      "observed_at": "2026-10-04T09:30:00Z"
+    },
+    {
+      "indicator_type": "hash",
+      "value": "d41d8cd98f00b204e9800998ecf8427e",
+      "disposition": "benign",
+      "confidence": 100,
+      "observed_at": "2026-10-03T00:00:00Z"
+    }
+  ]
+}
